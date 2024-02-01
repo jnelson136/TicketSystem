@@ -1,0 +1,15 @@
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/bin/Debug/net6.0/TicketSystem
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/bin/Debug/net6.0/TicketSystem.deps.json
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/bin/Debug/net6.0/TicketSystem.runtimeconfig.json
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/bin/Debug/net6.0/TicketSystem.dll
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/bin/Debug/net6.0/TicketSystem.pdb
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/TicketSystem.csproj.AssemblyReference.cache
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/TicketSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/TicketSystem.AssemblyInfoInputs.cache
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/TicketSystem.AssemblyInfo.cs
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/TicketSystem.csproj.CoreCompileInputs.cache
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/TicketSystem.dll
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/refint/TicketSystem.dll
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/TicketSystem.pdb
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/TicketSystem.genruntimeconfig.cache
+/Users/welcomebarb/Desktop/DOTNET/TicketSystem/obj/Debug/net6.0/ref/TicketSystem.dll
