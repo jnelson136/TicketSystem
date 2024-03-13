@@ -34,4 +34,15 @@ public class TicketHandle
             sr.Close();
         }
     }
+
+    public void CreateTicket(Ticket ticket)
+    {
+        StreamWriter sw = new StreamWriter(filePath, true);
+        try
+        {
+            sw.WriteLine(ticket.ToString());
+        } finally {
+            sw.Close();
+        }
+    }
 }
