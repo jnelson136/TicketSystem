@@ -1,5 +1,6 @@
 ﻿string file = "tickets.csv";
 string choice;
+TicketHandle ticketHandle = new TicketHandle(file);
 
 static string UppercaseFirst(string s)
 {
@@ -15,29 +16,9 @@ do
     Console.WriteLine("Enter any other key to exit.");
 
     choice = Console.ReadLine();
-
-
-
     if (choice == "1")
     {
-        if (File.Exists(file))
-        {
-            StreamReader sr = new StreamReader(file);
-            while (!sr.EndOfStream)
-            {
-                string line = sr.ReadLine();
-
-                string[] arr = line.Split('|');
-
-                Console.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}", arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6]);
-            }
-            sr.Close();
-        }
-
-        else
-        {
-            Console.WriteLine("File does not exist");
-        }
+        ticketHandle.ReadTicket();
     }
 
     else if (choice == "2")
@@ -48,7 +29,7 @@ do
             Console.WriteLine("Submit a new ticket (Y/N)?");
 
             string response = Console.ReadLine().ToUpper();
-            
+
             if (response != "Y")
             {
                 break;
@@ -80,7 +61,8 @@ do
             assignedTo = UppercaseFirst(assignedTo);
             watcher = UppercaseFirst(watcher);
 
-            sw.WriteLine("TicketID: {0} | Summary: {1} | Status: {2} | Priority Level: {3} | Submitter: {4} | Assigned To: {5} | Watcher: {6}", ticketID, summary, status, priority, submitter, assignedTo, watcher);
+            Ticket ticket = new Ticket(ticketID, summary, status, priority, submitter, assignedTo, watcher);
+            ticketHandle.CreateTicket(ticket);
         }
         sw.Close();
     }
